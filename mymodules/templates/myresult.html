@@ -1,0 +1,24 @@
+{% extends 'myBase.html' %}
+
+{% block body %}
+
+<h2>{{ the_title }}</h2>
+
+<p>You enter numbers:</p>
+<table>
+<tr><td>Number 1:</td><td>{{ the_number_1 }}</td></tr>
+<tr><td>Number 2:</td><td>{{ the_number_2 }}</td></tr>
+</table>
+<p>You enter action:</p>
+<table>
+ <tr><td>Action:</td><td>{{ the_action }}</td></tr>
+</table>
+
+<p>Sum {{ the_number_1 }} {{ the_action }} {{ the_number_2 }}, resultate:</p>
+<h3>{{ the_result }}</h3>
+<form method="post" action="/start">
+ <p><input value="Pick me to return!" type="SUBMIT"></p>
+</form>
+
+
+{% endblock %}

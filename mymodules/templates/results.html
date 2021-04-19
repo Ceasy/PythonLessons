@@ -4,17 +4,14 @@
 
 <h2>{{ the_title }}</h2>
 
-<p>You submitted the following data:</p>
+<p>You text entering:</p>
 <table>
 <tr><td>Phrase:</td><td>{{ the_phrase }}</td></tr>
 <tr><td>Letters:</td><td>{{ the_letters }}</td></tr>
 </table>
 
-<p>When "{{the_phrase }}" is searched for "{{ the_letters }}", the following 
+<p>When "{{the_phrase }}" is searched for "{{ the_letters }}", the following
 results are returned:</p>
 <h3>{{ the_results }}</h3>
-<form method='POST' action='/'>
-<p><input value='<- Back' type='SUBMIT'></p>
-</form>
 
 {% endblock %}

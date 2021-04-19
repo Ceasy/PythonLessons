@@ -1,0 +1,16 @@
+{% extends 'myBase.html' %}
+{% block body %}
+<h2>{{ the_title }}</h2>
+
+<form method='POST' action="/res">
+    <table>
+        <p>Pls, enter two numbers and choice for look sum result:</p>
+        <tr><td>Number 1:</td><td><input name="number_1" type="TEXT" width="10"></td></tr>
+        <tr><td>Number 2:</td><td><input name="number_2" type="TEXT"></td></tr>
+        <tr><td>Action:</td><td><input name="action" type="text"></td></tr>
+    </table>
+    <p>When you're ready, click this button:</p>
+    <p><input value="Pick me to result!" type="SUBMIT"></p>
+</form>
+
+{% endblock %}

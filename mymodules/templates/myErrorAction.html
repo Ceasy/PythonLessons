@@ -1,0 +1,13 @@
+{% extends 'myBase.html' %}
+
+{% block body %}
+
+<h2>{{ the_title }}</h2>
+
+<p>Pls, press button, so that to enter again data..</p>
+<form method="post" action="/start">
+ <p><input value="Pick me to return!" type="SUBMIT"></p>
+</form>
+
+
+{% endblock %}
