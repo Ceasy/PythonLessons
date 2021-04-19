@@ -12,4 +12,5 @@ def hello() -> str:
 def my_fun() -> str:
     return 'decorator fun is'+ app.route.__name__
 
+
 app.run()

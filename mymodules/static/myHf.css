@@ -1,12 +1,12 @@
 body {
   font-family:      Verdana, Geneva, Arial, sans-serif;
   font-size:        medium;
-  background-color: tan;
+  background-color: CadetBlue;
   margin-top:       5%;
   margin-bottom:    5%;
   margin-left:      10%;
   margin-right:     10%;
-  border:           1px midnightblue;
+  border:           1px dotted gray;
   padding:          10px 10px 10px 10px;
 }
 a {
@@ -24,7 +24,7 @@ h2 {
 }
 table {
   margin-left:      20px;
-  margin-right:     20px;
+  margin-right:     20px;/***20px;***/
   caption-side:     bottom;
   border-collapse:  collapse;
 }
@@ -48,7 +48,7 @@ td, th {
 
 table {
 font-size:          1em;
-background-color:   #fafcff;
+background-color:   #5F9EA0;
 border:             1px solid #909090;
 color:              #2a2a2a;
 padding:            5px 5px 2px;
@@ -61,7 +61,7 @@ border:             thin dotted gray;
 
 /*** Inputs ***/
 input[type=text] {
-  font-size:        115%;
+  font-size:        115%;/***115%;***/
   width:            30em;
 }
 input[type=submit] {
